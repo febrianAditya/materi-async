@@ -65,6 +65,35 @@ iterasiArrayDenganCallback([1, 2, 3], (item, index) => {
 
 
 /**
+ * Latihan Callback dengan skenario belanja
+ * 
+ * Saldo awal sebesar Rp100.000. Anda ingin berbelanja di sebuah toko dengan urutan sebagai berikut:
+ * 1. Membeli buku seharga Rp50.000.
+ * 2. Membeli pulpen seharga Rp20.000.
+ * 3. Membeli penghapus seharga Rp10.000.
+ * 4. Membeli pensil seharga Rp5.000.
+ * 
+ * Tugas:
+ * 1. Buatlah fungsi belanja yang menerima saldo awal, harga barang, dan sebuah callback.
+ * 2. Fungsi tersebut akan mengurangi saldo dengan harga barang, lalu memanggil callback dengan sisa saldo setelah pembelian.
+ * 3. Jika saldo tidak mencukupi untuk pembelian, fungsi harus menampilkan pesan "Uang tidak mencukupi" dan tidak memanggil callback.
+ * 4. Gunakan fungsi belanja untuk melakukan setiap pembelian dengan urutan yang sudah ditentukan.
+ * 5. Setelah setiap pembelian, tampilkan sisa saldo Anda.
+ * 
+ */
+
+function belanja() {
+    
+}
+//Output:
+// Membeli buku dengan harga Rp50.000. Sisa saldo: Rp50.000.
+// Membeli pulpen dengan harga Rp20.000. Sisa saldo: Rp30.000.
+// Membeli penghapus dengan harga Rp10.000. Sisa saldo: Rp20.000.
+// Membeli pensil dengan harga Rp5.000. Sisa saldo: Rp15.000.
+
+
+
+/**
  * Pengurutan dengan Callback
  * 
  * Tuliskan sebuah fungsi urutkanArray(arr, compareFunc, callback) yang menerima sebuah array, fungsi perbandingan, dan sebuah callback. 
